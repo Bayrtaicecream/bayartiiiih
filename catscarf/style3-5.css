@@ -1,0 +1,1452 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.menu{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/catscraftBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu .menu-header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+
+}
+.menu .menu-header .header-left{
+    width: 10%;
+    height: 100%;
+}
+.menu .menu-header .header-middle{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.menu .menu-header .header-middle .ul-left{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    margin-right: 5px;
+}
+.menu .menu-header .header-middle .ul-left li{
+    width: 50%;
+    height: 70%;
+}
+.menu .menu-header .header-middle .ul-left li p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-family: 'Hubballi';
+    color: white;
+}
+.menu .menu-header .header-middle .ul-left li:hover p{
+    transition: ease-out 0.3s;
+    color: rgb(214, 214, 16);
+}
+.menu .menu-header .header-middle .ul-img{
+    width: 12%;
+    height: 80%;
+}
+.menu .menu-header .header-middle .ul-img li:hover p{
+    transition: ease-out 0.3s;
+    color: rgb(214, 214, 16);
+}
+.middle-p{
+    width: 100%;
+    height: 15%;
+}
+.middle-p p{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Playfair Display';
+    color: white;
+}
+.ul-img .squirrel-svg{
+    width: 90%;
+    height: 75%;
+    color: white!important;
+}
+.ul-img .squirrel-svg{
+    color: white;
+}
+.menu .menu-header .header-middle .ul-right{
+    width: 20%;
+    height: 80%;
+    display: flex;
+}
+.menu .menu-header .header-middle .ul-right li{
+    width: 50%;
+    height: 70%;
+}
+.menu .menu-header .header-middle .ul-right li p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-family: 'Hubballi';
+    color: white;
+}
+.menu .menu-header .header-middle .ul-right li:hover p{
+    transition: ease-out 0.3s;
+    color: rgb(214, 214, 16);
+}
+.menu .menu-header .header-right{
+    width: 10%;
+    height: 100%;
+}
+.menu .menu-header .header-right .header-icon{
+    width: 19%;
+    height: 21%;
+    margin-top: 22%;
+}
+.menu .menu-header .header-right .header-icon i{
+    font-size: 30px;
+    padding-left: 5px;
+    color: white;
+}
+.menu .menu-header .header-right .header-icon i:hover{
+    transition: ease-out 0.3s;
+    color: rgb(209, 209, 36);
+}
+.menu .menu-container{
+    width: 100%;
+    height: 40%;
+    margin-top: 140px;
+}
+.menu .menu-container .container-big{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+.menu .menu-container .container-big .other-p1{
+    font-size: 100px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    padding-top: 40px;
+    font-family: 'Playfair Display SC';
+}
+.menu .menu-container .container-big .other-p2{
+    font-size: 60px;
+    font-family: 'Sacramento';
+    margin-left: 2px;
+    color: white;
+    text-align: center;
+}
+.menu .menu-container .container-big .other-p2:hover{
+    transition: ease-out 0.3s;
+    color: rgb(209, 209, 36);
+}
+.menu2{
+    width: 100%;
+    height: 100vh;
+}
+.menu2 .menu2-container1{
+    width: 100%;
+    height: 35%;
+}
+.menu2 .menu2-container1 .container1-text{
+    width: 40%;
+    height: 100%;
+    margin: auto;
+}
+.menu2 .menu2-container1 .container1-text .menu2-p1{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding-top: 75px;
+    font-family: "Playfair Display SC";
+}
+.menu2 .menu2-container1 .container1-text .menu2-p2{
+    font-size: 70px;
+    text-align: center;
+    font-style: italic;
+    color: black;
+    font-family: 'Playfair Display SC';
+}
+.menu2 .menu2-container1 .container1-text .menu2-p3{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+    font-family:"Alice", serif;
+}
+.menu2 .menu2-container2{
+    width: 100%;
+    height: 65%;
+}
+.menu2 .menu2-container2 .container2-img{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.menu2 .menu2-container2 .container2-img .img-space{
+    width: 33%;
+    height: 95%;
+    margin: auto;
+    position: relative;
+}
+.menu2 .menu2-container2 .container2-img .img-space img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.menu2 .menu2-container2 .container2-img .img-space .hover-1 .menu2-hr{
+    width: 80%;
+    margin-left: 4px;
+    height: 1px;
+    border: none;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+}
+.menu2 .menu2-container2 .container2-img .img-space .hover-1{
+    position: absolute;
+    width: 60%;
+    height: 58%;
+    background-color: rgba(29, 26, 25, 0.5);
+    top: 100px;
+    right: 110px;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 500px;
+}
+.menu2 .menu2-container2 .container2-img .img-space:hover .hover-1{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.4s ease-in-out;
+}
+.menu2 .menu2-container2 .container2-img .img-space .hover-1 .hover-text1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+    font-family: 'Playfair Display SC';
+}
+.menu2 .menu2-container2 .container2-img .img-space .hover-1 .hover-text2{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display SC';
+}
+.menu2 .menu2-container2 .container2-img .img-space .hover-1 .hover-text3{
+    font-size: 50px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.836);
+    font-family: "Sacramento", sans-serif;
+}
+.menu2 .menu2-container2 .container2-img .img-space .hover-1 .hover-text3:hover{
+    transition: 0.4s ease-in;
+    color: rgb(189, 189, 19);
+}
+.menu3{
+    width: 100%;
+    height: 100vh;
+}
+.menu3 .menu3-container1{
+    width: 100%;
+    height: 35%;
+}
+.menu3 .menu3-container1 .container1-text{
+    width: 40%;
+    height: 100%;
+    margin: auto;
+}
+.menu3 .menu3-container1 .container1-text .menu3-p1{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding-top: 75px;
+    font-family: "Playfair Display SC";
+}
+.menu3 .menu3-container1 .container1-text .menu3-p2{
+    font-size: 70px;
+    text-align: center;
+    font-style: italic;
+    color: black;
+    font-family: 'Playfair Display SC';
+}
+.menu3 .menu3-container1 .container1-text .menu3-p3{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+    font-family:"Alice", serif;
+}
+.menu3 .menu3-container2{
+    width: 100%;
+    height: 65%;
+}
+.menu3 .menu3-container2 .container2-img{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.menu3 .menu3-container2 .container2-img .img-space{
+    width: 33%;
+    height: 95%;
+    margin: auto;
+    position: relative;
+}
+.menu3 .menu3-container2 .container2-img .img-space img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.menu3 .menu3-container2 .container2-img .img-space .hover-1{
+    position: absolute;
+    width: 60%;
+    height: 58%;
+    background-color: rgba(29, 26, 25, 0.5);
+    top: 100px;
+    right: 110px;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 500px;
+}
+.menu3 .menu3-container2 .container2-img .img-space:hover .hover-1{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.4s ease-in-out;
+}
+.menu3 .menu3-container2 .container2-img .img-space .hover-1 .menu3-hr{
+    width: 80%;
+    margin-left: 4px;
+    height: 1px;
+    border: none;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+}
+.menu3 .menu3-container2 .container2-img .img-space .hover-1 .hover-text1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+    font-family: 'Playfair Display SC';
+}
+.menu3 .menu3-container2 .container2-img .img-space .hover-1 .hover-text2{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display SC';
+}
+.menu3 .menu3-container2 .container2-img .img-space .hover-1 .hover-text3{
+    font-size: 50px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.836);
+    font-family: 'Sacramento';
+}
+.menu3 .menu3-container2 .container2-img .img-space .hover-1 .hover-text3:hover{
+    transition: 0.4s ease-in;
+    color: rgb(189, 189, 19);
+}
+.menu4{
+    width: 100%;
+    height: 100vh;
+}
+.menu4 .menu4-container1{
+    width: 100%;
+    height: 35%;
+}
+.menu4 .menu4-container1 .container1-text{
+    width: 40%;
+    height: 100%;
+    margin: auto;
+}
+.menu4 .menu4-container1 .container1-text .menu4-p1{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding-top: 75px;
+    font-family: "Playfair Display SC";
+}
+.menu4 .menu4-container1 .container1-text .menu4-p2{
+    font-size: 70px;
+    text-align: center;
+    font-style: italic;
+    color: black;
+    font-family: 'Playfair Display SC';
+}
+.menu4 .menu4-container1 .container1-text .menu4-p3{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+    font-family:"Alice", serif;
+}
+.menu4 .menu4-container2{
+    width: 100%;
+    height: 65%;
+}
+.menu4 .menu4-container2 .container2-img{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.menu4 .menu4-container2 .container2-img .img-space{
+    width: 33%;
+    height: 95%;
+    margin: auto;
+    position: relative;
+}
+.menu4 .menu4-container2 .container2-img .img-space img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.menu4 .menu4-container2 .container2-img .img-space .hover-1{
+    position: absolute;
+    width: 60%;
+    height: 58%;
+    background-color: rgba(29, 26, 25, 0.5);
+    top: 100px;
+    right: 110px;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 500px;
+}
+.menu4 .menu4-container2 .container2-img .img-space .hover-1 .menu4-hr{
+    width: 97.5%;
+    margin-left: 4px;
+    height: 2px;
+}
+.menu4 .menu4-container2 .container2-img .img-space:hover .hover-1{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.4s ease-in-out;
+}
+.menu4 .menu4-container2 .container2-img .img-space .hover-1 .menu4-hr{
+    width: 80%;
+    margin-left: 4px;
+    height: 1px;
+    border: none;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+}
+.menu4 .menu4-container2 .container2-img .img-space .hover-1 .hover-text1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+    font-family: 'Playfair Display SC';
+}
+.menu4 .menu4-container2 .container2-img .img-space .hover-1 .hover-text2{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display SC';
+}
+.menu4 .menu4-container2 .container2-img .img-space .hover-1 .hover-text3{
+    font-size: 50px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.836);
+    font-family: 'Sacramento';
+}
+.menu4 .menu4-container2 .container2-img .img-space .hover-1 .hover-text3:hover{
+    transition: 0.4s ease-in;
+    color: rgb(189, 189, 19);
+}
+.menu5{
+    width: 100%;
+    height: 100vh;
+}
+.menu5 .menu5-container1{
+    width: 100%;
+    height: 35%;
+}
+.menu5 .menu5-container1 .container1-text{
+    width: 40%;
+    height: 100%;
+    margin: auto;
+}
+.menu5 .menu5-container1 .container1-text .menu5-p1{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding-top: 75px;
+    font-family: "Playfair Display SC";
+}
+.menu5 .menu5-container1 .container1-text .menu5-p2{
+    font-size: 70px;
+    text-align: center;
+    font-style: italic;
+    color: black;
+    font-family: 'Playfair Display SC';
+}
+.menu5 .menu5-container1 .container1-text .menu5-p3{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+    font-family:"Alice", serif;
+}
+.menu5 .menu5-container2{
+    width: 100%;
+    height: 65%;
+}
+.menu5 .menu5-container2 .container2-img{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.menu5 .menu5-container2 .container2-img .img-space5{
+    width: 30%;
+    height: 95%;
+    margin: auto;
+    position: relative;
+}
+.menu5 .menu5-container2 .container2-img .img-space5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.menu5 .menu5-container2 .container2-img .img-space5 .hover-2{
+    position: absolute;
+    width: 75%;
+    height: 64%;
+    background-color: rgba(43, 41, 40, 0.5);
+    top: 100px;
+    right: 66px;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 500px;
+}
+.menu5 .menu5-container2 .container2-img .img-space5:hover .hover-2{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.4s 
+    ease-in-out;
+}
+.menu5 .menu5-container2 .container2-img .img-space5 .hover-2 .menu5-hr{
+    width: 80%;
+    height: 1px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: none;
+}
+.menu5 .menu5-container2 .container2-img .img-space5 .hover-2 .hover-text1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+    font-family: 'Playfair Display SC';
+}
+.menu5 .menu5-container2 .container2-img .img-space5 .hover-2 .hover-text2{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display SC';
+}
+.menu5 .menu5-container2 .container2-img .img-space5 .hover-2 .hover-text3{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Sacramento';
+}
+.menu5 .menu5-container2 .container2-img .img-space5 .hover-2 .hover-text3:hover{
+    transition: 0.4s ease-in;
+    color: rgb(189, 189, 19);
+}
+.menu6{
+    width: 100%;
+    height: 60vh;
+    background-image: url(img/yarn1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu7{
+    width: 100%;
+    height: 95vh;
+    background-color: #f4efde;
+}
+ .menu7 .menu7-container{
+    width: 90%;
+    height: 95%;
+    margin: auto;
+    padding: 40px;
+}
+.menu7 .menu7-container .m7container1{
+    width: 100%;
+    height: 33%;
+}
+.menu7 .menu7-container .m7container1 .menu7-pp1{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+    font-family: "Playfair Display SC";
+}
+.menu7 .menu7-container .m7container1 .menu7-pp2{
+    font-size: 70px;
+    text-align: center;
+    font-style: italic;
+    color: black;
+    font-family: 'Playfair Display SC';
+}
+.menu7 .menu7-container .m7container1 .menu7-pp3{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+    font-family:"Alice", serif;
+}
+.menu7 .menu7-container .m7container1 .menu7-hr{
+    width: 70%;
+    height: 1px;
+    border: none;
+    background-color: black;
+    margin: auto;
+}
+.menu7 .menu7-container .m7container2{
+    width: 100%;
+    height: 67%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu7 .menu7-container .m7container2 .m7container2-1{
+    width: 33%;
+    height: 97%;
+    margin-top: 7px;
+}
+.menu7 .menu7-container .m7container2 .m7container2-1 .container2-1-2{
+    width: 100%;
+    height: 50%;
+}
+.menu7 .menu7-container .m7container2 .m7container2-1 .container2-1-2 img{
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    object-fit: contain;
+}
+.menu7 .menu7-container .m7container2 .m7container2-1 .container2-2-2{
+    width: 100%;
+    height: 50%;
+}
+.menu7 .menu7-container .m7container2 .m7container2-1 .container2-2-2 .menu7-p1{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Playfair Display SC';
+    margin-bottom: 10px;
+    padding-top: 15px;
+    color: #444455;
+}
+.menu7 .menu7-container .m7container2 .m7container2-1 .container2-2-2 .menu7-hr{
+    width: 70%;
+    height: 1px;
+    margin: auto;
+    border: none;
+    background-color:#444455;
+}
+.menu7 .menu7-container .m7container2 .m7container2-1 .container2-2-2 .menu7-p2{
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'Cormorant Garamond';
+    text-align: center;
+    color: #444455;
+    margin-top: 15px;
+}
+.menu8{
+    width: 100%;
+    height: 50vh;
+    background-image: url(img/catscraftBG2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu9{
+    width: 100%;
+    height: 50vh;
+    background-color: #dba539;
+}
+.menu9 .menu9-container1{
+    width: 25%;
+    height: 70%;
+    margin: auto;
+}
+.menu9 .menu9-container1 .ul-svg{
+    width: 60%;
+    height: 50%;
+    margin: auto;
+}
+.menu9 .menu9-container1 .ul-svg .menu9-li1{
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    padding-top: 15px;
+
+}
+.menu9 .menu9-container1 .ul-svg .menu9-li1 .squirrel-svg1{
+    width: 100%;
+    height: 85%;
+    margin: auto;
+}
+.menu9 .menu9-container1 .ul-svg .menu9-li2{
+    width:100%;
+    height: 18%;
+}
+.menu9 .menu9-container1 .ul-svg .menu9-li2:hover p{
+    transition: 0.4s;
+    color: #c7d93b;
+}
+.menu9 .menu9-container1 .ul-svg .menu9-li2 p{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display SC' ,serif;
+}
+.menu9 .menu9-container1 .ul-icon{
+    width: 70%;
+    height: 40%;
+    margin: auto;
+    display: flex;
+    gap: 1%;
+}
+.menu9 .menu9-container1 .ul-icon li{
+    width: 33%;
+    height: 30%;
+    margin: auto;
+    display: flex;
+}
+.menu9 .menu9-container1 .ul-icon li i{
+    font-size: 28px;
+    color: white;
+    margin: auto;
+}
+.menu9 .menu9-container1 .ul-icon li:hover i{
+    transition: 0.4s;
+    color: #c7d93b;
+}
+.menu9 .menu9-container2{
+    width: 50%;
+    height: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.menu9 .menu9-container2 .menu9-p{
+    width: 80%;
+    height: 40%;
+}
+.menu9 .menu9-container2 .menu9-p p{
+    font-size: 25px;
+    font-family:'Playfair Display SC';
+    text-align: center;
+    color: white;
+}
+.menu9 .menu9-container3{
+    width: 100%;
+    height: 10%;
+    background-color: #805f1e;
+}
+.menu9 .menu9-container3 p{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-top: 13px;
+}
+/* ++++ */
+.menu-hr{
+    width: 90%;
+    height: 1px;
+    background-color: white;
+    border: none;
+    margin: auto;
+}
+.header-hr{
+    width: 100%;
+    height: 0.5px;
+    border: none;
+    background-color: white;
+}
+
+.menu .menu-mobile-header{
+    width: 100%;
+    height: 7%;
+    display: block;
+    background-color: white;
+    display: flex;
+    display: none;
+}
+.menu .menu-mobile-header .mobile-svg{
+    width: 20%;
+    height: 100% ;
+}
+.menu .menu-mobile-header .mobile-svg .squirrel-svg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.menu .menu-mobile-header .mobile-p{
+    width: 92%;
+    height: 100%;
+    position: sticky;
+}
+.menu .menu-mobile-header .mobile-p p{
+    font-size: 13px;
+    padding-top: 14px;
+    padding-left: 10px;
+    position: static;
+    font-family: "Playfair Display SC";
+   
+}
+@media screen and (max-width:1225px){
+    .menu .menu-header{
+        display: none;
+    }
+    .menu .menu-mobile-header{
+        display: flex;
+    }
+    .menu{
+        width: 100%;
+    }
+    .menu .menu-container{
+        margin-top: 180px;
+    }
+    .menu .menu-container .container-big{
+        width: 100%;
+    }
+    .menu .menu-container .container-big .other-p1{
+        font-size: 60px;
+    }
+    .menu .menu-container .container-big .other-p2{
+        font-size: 35px;
+        margin: 0;
+    }
+    .menu-hr{
+        width: 100%;
+    }
+    .menu2{
+        width: 100%;
+        height: 95vh;
+    }
+    .menu2 .menu2-container1 .container1-text .menu2-p1{
+        padding-top: 50px;
+        padding-bottom: 10px;
+        margin: 0;
+        font-size: 15px;
+    }
+    .menu2 .menu2-container1 .container1-text .menu2-p3{
+        padding-top: 0;
+        font-size: 20px;
+        font-family: "Alice", serif;
+    }
+    .menu2 .menu2-container2{
+        height: 53%;
+        margin-top: 7%;
+    }
+    .menu2 .menu2-container2 .container2-img{
+        width: 80%;
+        margin: auto;
+    }
+    .menu2 .menu2-container2 .container2-img .img-space .hover-1{
+        position: absolute;
+        width: 88%;
+        height: 80%;
+        background-color: rgba(29, 26, 25, 0.5);
+        top: 30px;
+        right: 15px;
+        z-index: 999;
+        visibility: hidden;
+        opacity: 0;
+        border-radius: 500px;
+    }
+    .menu2 .menu2-container2 .container2-img .img-space .hover-1 .hover-text1{
+        padding-top: 35px;
+        font-size: 20px;
+    }
+    .menu2 .menu2-container2 .container2-img .img-space .hover-1 .hover-text2{
+        font-size: 28px;
+    }
+    .menu2 .menu2-container2 .container2-img .img-space .hover-1 .menu2-hr{
+        margin-left: 27px;
+    }
+    .menu2 .menu2-container2 .container2-img .img-space .hover-1 .hover-text3{
+        font-size: 25px;
+    }
+    .menu3{
+        width: 100%;
+        height: 100vh;
+    }
+    .menu3 .menu3-container1 .container1-text .menu3-p1{
+        padding-top: 50px;
+        padding-bottom: 10px;
+        margin: 0;
+        font-size: 15px;
+    }
+    .menu3 .menu2-container1 .container1-text .menu3-p3{
+        padding-top: 0;
+        font-size: 20px;
+        font-family: "Alice", serif;
+    }
+    .menu3 .menu3-container2{
+        height: 53%;
+        margin-top: 7%;
+    }
+    .menu3 .menu3-container2 .container2-img{
+        width: 79%;
+        margin: auto;
+    }
+    .menu3 .menu3-container2 .container2-img .img-space .hover-1{
+        position: absolute;
+        width: 88%;
+        height: 75%;
+        background-color: rgba(29, 26, 25, 0.5);
+        top: 30px;
+        right: 15px;
+        z-index: 999;
+        visibility: hidden;
+        opacity: 0;
+        border-radius: 500px;
+    }
+    .menu3 .menu3-container2 .container2-img .img-space .hover-1 .hover-text1{
+        padding-top: 35px;
+        font-size: 20px;
+    }
+    .menu3 .menu3-container2 .container2-img .img-space .hover-1 .hover-text2{
+        font-size: 28px;
+    }
+    .menu3 .menu3-container2 .container2-img .img-space .hover-1 .menu3-hr{
+        margin-left: 27px;
+    }
+    .menu3 .menu3-container2 .container2-img .img-space .hover-1 .hover-text3{
+        font-size: 25px;
+    }
+    .menu4{
+        width: 100%;
+        height: 100vh;
+    }
+    .menu4 .menu4-container1 .container1-text .menu4-p1{
+        padding-top: 50px;
+        padding-bottom: 10px;
+        margin: 0;
+        font-size: 15px;
+    }
+    .menu4 .menu4-container1 .container1-text .menu4-p3{
+        padding-top: 0;
+        font-size: 20px;
+        font-family: "Alice", serif;
+    }
+    .menu4 .menu4-container2{
+        height: 53%;
+        margin-top: 7%;
+    }
+    .menu4 .menu4-container2 .container2-img{
+        width: 79%;
+        margin: auto;
+    }
+    .menu4 .menu4-container2 .container2-img .img-space .hover-1{
+        position: absolute;
+        width: 88%;
+        height: 75%;
+        background-color: rgba(29, 26, 25, 0.5);
+        top: 30px;
+        right: 15px;
+        z-index: 999;
+        visibility: hidden;
+        opacity: 0;
+        border-radius: 500px;
+    }
+    .menu4 .menu4-container2 .container2-img .img-space .hover-1 .hover-text1{
+        padding-top: 35px;
+        font-size: 20px;
+    }
+    .menu4 .menu4-container2 .container2-img .img-space .hover-1 .hover-text2{
+        font-size: 28px;
+    }
+    .menu4 .menu4-container2 .container2-img .img-space .hover-1 .hover-text3{
+        font-size: 25px;
+    }
+    .menu5{
+        width: 100%;
+        height: 100vh;
+    }
+    .menu5 .menu5-container1 .container1-text .menu5-p1{
+        padding-top: 50px;
+        padding-bottom: 10px;
+        margin: 0;
+        font-size: 15px;
+    }
+    .menu5 .menu5-container1 .container1-text .menu5-p2{
+        font-size: 40px;
+    }
+    .menu5 .menu5-container1 .container1-text .menu5-p3{
+        padding-top: 0;
+        font-size: 20px;
+        font-family: "Alice", serif;
+    }
+    .menu5 .menu5-container2 .container2-img{
+        width: 75%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+    .menu5 .menu5-container2 .container2-img .img-space5{
+        height: 90%;
+        margin: 0;
+    }
+    .menu5 .menu5-container2 .container2-img .img-space5 .hover-2{
+        position: absolute;
+        width: 98%;
+        height: 67%;
+        background-color: rgba(43, 41, 40, 0.5);
+        top: 50px;
+        right: 6px;
+        z-index: 999;
+        visibility: hidden;
+        opacity: 0;
+        border-radius: 500px;
+    }
+    .menu5 .menu5-container2 .container2-img .img-space5 .hover-2 .hover-text1{
+        padding-top: 35px;
+        font-size: 20px;
+    }
+    .menu5 .menu5-container2 .container2-img .img-space5 .hover-2 .hover-text2{
+        font-size: 28px;
+    }
+    .menu5 .menu5-container2 .container2-img .img-space5 .hover-2 .menu5-hr{
+        margin-left: 28px;
+    }
+    .menu5 .menu5-container2 .container2-img .img-space5 .hover-2 .hover-text3{
+        font-size: 25px;
+    }
+    .menu7{
+        width: 100%;
+        height: 110vh;
+    }
+    .menu7 .menu7-container{
+        width: 100%;
+    }
+    .menu7 .menu7-container .m7container1{
+        width: 60%;
+        height: 36%;
+        margin: auto;
+    }
+    .menu7 .menu7-container .m7container1 .menu7-pp1{
+        font-size: 15px;
+    }
+    .menu7 .menu7-container .m7container1 .menu7-pp2{
+        font-size: 45px;
+    }
+    .menu7 .menu7-container .m7container1 .menu7-hr{
+        width: 80%;
+        height: 1px;
+        outline: none;
+    }
+    .menu7 .menu7-container .m7container1 .menu7-pp3{
+        font-size: 17px;
+        padding: 0;
+        font-family: "Alice", serif;
+    }
+    .menu7 .menu7-container .m7container2{
+        width: 100%;
+        height: 76%;
+    }
+    .menu7 .menu7-container .m7container2 .m7container2-1{
+        width: 32%;
+        height: 50%;
+    }
+    .menu7 .menu7-container .m7container2 .m7container2-1 .container2-1-2{
+        display: flex;
+        justify-content: center;
+    }
+    .menu7 .menu7-container .m7container2 .m7container2-1 .container2-1-2 img{
+        width: 100%;
+        height: 100%;
+    }
+    .menu7 .menu7-container .m7container2 .m7container2-1 .container2-2-2 .menu7-p1{
+        font-size: 28px;
+    }
+    .menu7 .menu7-container .m7container2 .m7container2-1 .container2-2-2 .menu7-p2{
+        font-size: 18px;
+    }
+    .menu9 .menu9-container1 .ul-svg .menu9-li2 p{
+        font-size: 13px;
+    }
+    .menu9 .menu9-container1 .ul-icon li{
+        width: 30%;
+    }
+    .menu9 .menu9-container1 .ul-icon li i{
+        font-size: 22px;
+    }
+    .menu9 .menu9-container2{
+        width: 70%;
+    }
+    .menu9 .menu9-container2 .menu9-p p{
+        font-size: 18px;
+    }
+    .menu9 .menu9-container3 p{
+        font-size: 15px;
+        padding: 9px;
+    }
+}
+@media screen and (max-width:376px){
+    body{
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+    }    
+    .menu .menu-container .container-big .other-p1{
+        font-size: 38px;
+    }
+    .menu .menu-container .container-big .menu-hr{
+        outline: none;
+    }
+    .menu2{
+        height: 1800px;
+    }
+    .menu2 .menu2-container1{
+        height: 8%;
+
+    }
+    .menu2 .menu2-container1 .container1-text{
+        width: 85%;
+    }
+    .menu2 .menu2-container1 .container1-text .menu2-p1{
+        padding-bottom: 0;
+        padding-top: 15px;
+        font-size: 13px;
+    }
+    .menu2 .menu2-container1 .container1-text .menu2-p2{
+        font-size: 35px;
+    }
+    .menu2 .menu2-container1 .container1-text .menu2-p3{
+        font-family:"Alice", serif;
+    }
+    .menu2 .menu2-container2 .container2-img{
+        flex-direction: column;
+    }
+    .menu2 .menu2-container2{
+        height: 100%;
+    }
+    .menu2 .menu2-container2 .container2-img  .img-space{
+        height: 500px;
+        width: 100%;
+        margin: 0;
+        position: static;
+    }
+    .menu2 .menu2-container2 .container2-img  .img-space .hover-1{
+        width: 100%;
+        height: 90px;
+        display: block;
+        position: static;
+        background-color: white;
+    }
+    .menu2 .menu2-container2 .container2-img  .img-space .hover-1 .hover-text1{
+        padding-top: 0;
+        font-size: 15px;
+        color: black;
+    }
+    .menu2 .menu2-container2 .container2-img  .img-space .hover-1 .hover-text2{
+        padding-top: 0;
+        font-size: 20px;
+        color: black;
+    }
+    .menu2 .menu2-container2 .container2-img  .img-space .hover-1 .menu2-hr{
+        margin-top: 5px;
+        margin-bottom: 0;
+        background-color: black;
+
+    }
+    .menu2 .menu2-container2 .container2-img  .img-space .hover-1 .hover-text3{
+        padding: 0;
+        margin-top: 5px;
+        font-size: 33px;
+        color: black;
+        font-family: "Sacramento", sans-serif;
+    }
+    /* .... */
+    .menu3{
+        height: 1800px;
+        margin-top: 300px;
+    }
+    .menu3 .menu3-container1{
+        height: 8%;
+
+    }
+    .menu3 .menu3-container1 .container1-text{
+        width: 85%;
+    }
+    .menu3 .menu3-container1 .container1-text .menu3-p1{
+        padding-bottom: 0;
+        padding-top: 15px;
+        font-size: 13px;
+
+    }
+    .menu3 .menu3-container1 .container1-text .menu3-p2{
+        font-size: 35px;
+    }
+    .menu3 .menu3-container1 .container1-text .hr{
+        margin: 0;
+    }
+    .menu3 .menu3-container1 .container1-text .menu3-p3{
+        padding-top: 0;
+        font-size: 23px;
+    }
+    .menu3 .menu3-container2 .container2-img{
+        flex-direction: column;
+    }
+    .menu3 .menu3-container2{
+        height: 100%;
+    }
+    .menu3 .menu3-container2 .container2-img  .img-space{
+        height: 500px;
+        width: 100%;
+        margin: 0;
+        position: static;
+    }
+    .menu3 .menu3-container2 .container2-img  .img-space .hover-1{
+        width: 100%;
+        height: 90px;
+        display: block;
+        position: static;
+        background-color: white;
+    }
+    .menu3 .menu3-container2 .container2-img  .img-space .hover-1 .hover-text1{
+        padding-top: 0;
+        font-size: 15px;
+        color: black;
+    }
+    .menu3 .menu3-container2 .container2-img  .img-space .hover-1 .hover-text2{
+        padding-top: 0;
+        font-size: 20px;
+        color: black;
+    }
+    .menu3 .menu3-container2 .container2-img  .img-space .hover-1 .menu3-hr{
+        margin-top: 5px;
+        margin-bottom: 0;
+        background-color: black;
+
+    }
+    .menu3 .menu3-container2 .container2-img  .img-space .hover-1 .hover-text3{
+        padding: 0;
+        margin-top: 5px;
+        font-size: 33px;
+        color: black;
+        font-family: "Sacramento", sans-serif;
+    }
+    /* .... */
+    .menu4{
+        height: 1800px;
+        margin-top: 300px;
+    }
+    .menu4 .menu4-container1{
+        height: 8%;
+
+    }
+    .menu4 .menu4-container1 .container1-text{
+        width: 85%;
+    }
+    .menu4 .menu4-container1 .container1-text .menu4-p1{
+        padding-bottom: 0;
+        padding-top: 15px;
+        font-size: 13px;
+
+    }
+    .menu4 .menu4-container1 .container1-text .menu3-p2{
+        font-size: 35px;
+    }
+    .menu4 .menu4-container1 .container1-text .hr{
+        margin: 0;
+    }
+    .menu4 .menu4-container1 .container1-text .menu4-p3{
+        padding-top: 0;
+        font-size: 23px;
+    }
+    .menu4 .menu4-container2 .container2-img{
+        flex-direction: column;
+    }
+    .menu4 .menu4-container2{
+        height: 100%;
+    }
+    .menu4 .menu4-container2 .container2-img  .img-space{
+        height: 500px;
+        width: 100%;
+        margin: 0;
+        position: static;
+    }
+    .menu4 .menu4-container2 .container2-img  .img-space .hover-1{
+        width: 100%;
+        height: 90px;
+        display: block;
+        position: static;
+        background-color: white;
+    }
+    .menu4 .menu4-container2 .container2-img  .img-space .hover-1 .hover-text1{
+        padding-top: 0;
+        font-size: 15px;
+        color: black;
+    }
+    .menu4 .menu4-container2 .container2-img  .img-space .hover-1 .hover-text2{
+        padding-top: 0;
+        font-size: 20px;
+        color: black;
+    }
+    .menu4 .menu4-container2 .container2-img  .img-space .hover-1 .menu4-hr{
+        margin-top: 5px;
+        margin-bottom: 0;
+        background-color: black;
+
+    }
+    .menu4 .menu4-container2 .container2-img  .img-space .hover-1 .hover-text3{
+        padding: 0;
+        margin-top: 5px;
+        font-size: 33px;
+        color: black;
+        font-family: "Sacramento", sans-serif;
+    }
+    /* .... */
+    .menu5{
+        height: 1400px;
+        margin-top: 300px;
+    }
+    .menu5 .menu5-container1{
+        height: 8%;
+
+    }
+    .menu5 .menu5-container1 .container1-text{
+        width: 85%;
+    }
+    .menu5 .menu5-container1 .container1-text .menu5-p1{
+        padding-bottom: 0;
+        padding-top: 15px;
+        font-size: 13px;
+
+    }
+    .menu5 .menu5-container1 .container1-text .menu5-p2{
+        font-size: 35px;
+    }
+    .menu5 .menu5-container1 .container1-text .hr{
+        margin: 0;
+    }
+    .menu5 .menu5-container1 .container1-text .menu5-p3{
+        padding-top: 0;
+        font-size: 23px;
+    }
+    .menu5 .menu5-container2{
+        height: 100%;
+    }
+    .menu5 .menu5-container2 .container2-img{
+        flex-direction: column;
+        margin-top: 70px;
+        height: 75%;
+    }
+    .menu5 .menu5-container2 .container2-img  .img-space5{
+        height: 700px;
+        width: 100%;
+        margin: 0;
+        position: static;
+        padding-top: 0;
+    }
+    .menu5 .menu5-container2 .container2-img  .img-space5 .hover-2{
+        width: 100%;
+        height: 90px;
+        display: block;
+        position: static;
+        background-color: white;
+    }
+    .menu5 .menu5-container2 .container2-img  .img-space5 .hover-2 .hover-text1{
+        padding-top: 0;
+        font-size: 15px;
+        color: black;
+    }
+    .menu5 .menu5-container2 .container2-img  .img-space5 .hover-2 .hover-text2{
+        padding-top: 0;
+        font-size: 20px;
+        color: black;
+    }
+    .menu5 .menu5-container2 .container2-img  .img-space5 .hover-2 .menu5-hr{
+        margin-top: 5px;
+        margin-bottom: 0;
+        background-color: black;
+
+    }
+    .menu5 .menu5-container2 .container2-img  .img-space5 .hover-2 .hover-text3{
+        padding: 0;
+        margin-top: 5px;
+        font-size: 33px;
+        color: black;
+        font-family: "Sacramento", sans-serif;
+    }
+    /* .... */
+    .menu7{
+        height: 1800px;
+    }
+    .menu7 .menu7-container{
+        width: 85%;
+        height: 100%;
+        padding: 0;
+        margin: auto;
+    }
+    .menu7 .menu7-container .m7container1{
+        width: 100%;
+        height: 260px;
+    }
+    .menu7 .menu7-container .m7container1 .menu7-pp1{
+        font-size: 14px;
+    }
+    .menu7 .menu7-container .m7container1 .menu7-pp2{
+        font-size: 42px;
+    }
+    .menu7 .menu7-container .m7container1 .menu7-hr{
+        width: 50%;
+    }
+    .menu7 .menu7-container .m7container1 .menu7-pp3{
+        font-size: 18px;
+        font-family: 'Alice', serif;
+    }
+    .menu7 .menu7-container .m7container2{
+        flex-direction: column;
+    }
+    .menu7 .menu7-container .m7container2 .m7container2-1{
+        width: 100%;
+        height: 550px;
+        align-items: center;
+    }
+    .menu7 .menu7-container .m7container2 .m7container2-1 .container2-1-2{
+        width: 90%;
+        margin-left: 5%;
+        height: 40%;
+    }
+    /* .... */
+    .menu9 .menu9-container1{
+        width: 80%;
+        height: 60%;
+    }
+    .menu9 .menu9-container1 .ul-svg{
+        height: 65%;
+    }
+    .menu9 .menu9-container1 .ul-icon{
+        height: 30%;
+    }
+    .menu9 .menu9-container2{
+        height: 30%;
+    }
+}
